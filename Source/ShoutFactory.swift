@@ -40,7 +40,6 @@ public class ShoutView: UIView {
 
   public private(set) lazy var imageView: UIImageView = {
     let imageView = UIImageView()
-    imageView.layer.cornerRadius = Dimensions.imageSize / 2
     imageView.clipsToBounds = true
     imageView.contentMode = .ScaleAspectFill
 
